@@ -1,2 +1,2 @@
 # PWD
-Materia Programación Web Dinámica 2024 - TUDW
+Programación Web Dinámica 2024 - TUDW
