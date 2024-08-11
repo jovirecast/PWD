@@ -31,29 +31,29 @@
     );
 
     echo "<p><u> Primer diseño </u></p>";
-    echo "<table rules = " . "all" . " style=" . '"border: 1px solid; text-align:center; table-layout:fixed; width: max-content; height: 200px;"' . ">";
+    echo "<table style=" . '"border: 1px solid; text-align:center; border-collapse: collapse;"' . ">";
 
     foreach ($horarios as $fila) {
         echo "<tr>";
         foreach ($fila as $clave => $valor) {
-            echo "<th>" . $clave . "</th>";
+            echo "<th style =" .'"border: 1px solid;"'.">" . $clave . "</th>";
         }
         echo "</tr>";
         echo "<tr>";
         foreach ($fila as $clave => $valor) {
-            echo "<td>" . $valor . "</td>";
+            echo "<td style =" .'"border: 1px solid;"'.">" . $valor . "</td>";
         }
         echo "</tr>";
     }
     echo "</table>";
 
     echo "<p><u> Segundo diseño </u></p>";
-    echo "<table rules = " . "all" . " style=" . '"border: 1px solid; text-align:center; table-layout:fixed; width: 80%; height: 200px;"' . ">";
+    echo "<table style=" . '"border: 1px solid; text-align:center; border-collapse: collapse; text-align:center; table-layout:fixed; width: 80%; height: 100px;"' . ">";
 
     echo "<tr>";
     foreach ($horarios as $fila) {
         foreach ($fila as $clave => $valor) {
-            echo "<th>" . $clave . "</th>";
+            echo "<th style =" .'"border: 1px solid;"'.">" . $clave . "</th>";
         }
     }
     echo "</tr>";
@@ -61,7 +61,7 @@
     echo "<tr>";
     foreach ($horarios as $fila) {
         foreach ($fila as $clave => $valor) {
-            echo "<td>" . $valor . "</td>";
+            echo "<td style =" .'"border: 1px solid;"'.">" . $valor . "</td>";
         }
     }
     echo "</tr>";

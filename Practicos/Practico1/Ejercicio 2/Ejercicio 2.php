@@ -22,10 +22,10 @@
     $edad = "treinta y cuatro";
     $direccion = "Springfield";
 
-    echo "Nombre: " . strtoupper($nombre) . "<br>" . 
-    "Apellido: " . strtoupper($apellido) . "<br>" . 
-    "Edad: " . strtoupper($edad) . "<br>" . 
-    "Dirección: " . strtoupper($direccion);
+    echo "Nombre: " . strtoupper($nombre) . "<br>" .
+        "Apellido: " . strtoupper($apellido) . "<br>" .
+        "Edad: " . strtoupper($edad) . "<br>" .
+        "Dirección: " . strtoupper($direccion);
 
     ?>
 </body>
